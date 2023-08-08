@@ -1,5 +1,5 @@
 process foo {
-    container 'nextflow/examples:latest'
+    container 'alpine:latest'
     secret 'personal_secret'
     secret 'workspace_1'
 
