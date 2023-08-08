@@ -1,5 +1,5 @@
 process foo {
-    container 'bash:latest'
+    container 'ubuntu:latest'
     secret 'personal_secret'
     secret 'workspace_1'
 
